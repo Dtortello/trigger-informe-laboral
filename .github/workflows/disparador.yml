@@ -3,7 +3,6 @@ name: Disparador Diario - Informe Laboral TI Abogados
 on:
   schedule:
     - cron: "0 12 * * *"   # 08:00 Chile (UTC-4 invierno)
-    - cron: "30 12 * * *"  # 08:30 Chile, respaldo por si el primero se salta
   workflow_dispatch:
 
 jobs:
